@@ -57,7 +57,7 @@ var opts = {
     }
     return token;
   },
-  secretOrKey: 'Oequeit4quaKaiYi'
+  secretOrKey: config.jwt_secret
 };
 passport.use(new JwtStrategy(opts, function(jwt_payload, done) {
   done(null, jwt_payload);

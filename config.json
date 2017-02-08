@@ -1,0 +1,10 @@
+{
+  "web_port": 3000,
+  "sensor_port": 3001,
+  "google_auth": {
+    "clientID": "******client_id*******.apps.googleusercontent.com",
+    "clientSecret": "******secret******",
+    "callbackURL": "http://127.0.0.1:3000/auth/google/callback"
+  },
+  "allowed_user_ids": [ "******user_ids*******" ]
+}
